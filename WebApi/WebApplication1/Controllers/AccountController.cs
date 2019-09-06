@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using Microsoft.IdentityModel.Tokens;
+using Microsoft.IdentityModel.Tokens; 
 using WebApplication1.Models;
 using WebApplication1.Services;
 using WebApplication1.Utilities;
@@ -22,6 +22,7 @@ namespace WebApplication1.Controllers
     [ApiController]
     public class AccountController : Controller
     {
+        //this is account controller.
         public IAccountService _account;
         public IConfiguration _config;
         public IHttpContextAccessor _httpContext;
